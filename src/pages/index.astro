@@ -42,4 +42,318 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">CyberBolt</span> provides cutting-edge cybersecurity services to protect your digit
+        <span class="font-semibold">CyberBolt</span> provides cutting-edge cybersecurity services to protect your digital assets.</span
+      >
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">CyberBolt: Your Digital Shield</span>
+      Prevent breaches, ensure compliance, and safeguard your business from evolving cyber threats.
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    tagline="Our Services"
+    title="Comprehensive Cybersecurity Protection"
+    subtitle="Advanced solutions to safeguard your digital infrastructure and business continuity."
+    items={[
+      {
+        title: 'Threat Detection & Response',
+        description:
+          'Real-time monitoring and advanced threat intelligence to identify and mitigate potential security risks.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Penetration Testing',
+        description:
+          'Proactive vulnerability assessment and ethical hacking to uncover and address security weaknesses.',
+        icon: 'tabler:lock-search',
+      },
+      {
+        title: 'Compliance Management',
+        description:
+          'Ensure your business meets industry-standard security regulations and data protection requirements.',
+        icon: 'tabler:certificate',
+      },
+      {
+        title: 'Security Training',
+        description:
+          'Comprehensive cybersecurity awareness programs to empower your team against social engineering and human-based threats.',
+        icon: 'tabler:user-shield',
+      },
+      {
+        title: 'Cloud Security',
+        description:
+          'Robust protection strategies for cloud infrastructure, ensuring secure and compliant cloud operations.',
+        icon: 'tabler:cloud-lock',
+      },
+      {
+        title: 'Incident Response',
+        description:
+          'Rapid and effective response plans to minimize damage and recover quickly from potential security breaches.',
+        icon: 'tabler:emergency-bed',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    tagline="Inside CyberBolt"
+    title="Our Comprehensive Security Blueprint"
+    items={[
+      {
+        title: 'Advanced Threat Protection',
+        description:
+          'Leveraging cutting-edge technologies to proactively defend against sophisticated cyber threats.',
+      },
+      {
+        title: 'Customized Security Strategies',
+        description:
+          'Tailored solutions that align with your unique business requirements and risk profile.',
+      },
+      {
+        title: 'Continuous Monitoring',
+        description:
+          'Round-the-clock surveillance to ensure immediate detection and mitigation of potential security incidents.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Cybersecurity Concept',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building Robust Digital Defenses</h3>
+      Gain a competitive advantage through proactive and intelligent security measures
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Comprehensive Risk Assessment',
+        description: `Detailed analysis of your digital infrastructure to identify and mitigate potential vulnerabilities.`,
+      },
+      {
+        title: 'Scalable Security Solutions',
+        description:
+          'Flexible security frameworks that grow and adapt with your business needs.',
+      },
+      {
+        title: 'Expert Consultation',
+        description:
+          "Direct access to cybersecurity professionals who understand your unique challenges.",
+      },
+      {
+        title: 'Cutting-Edge Technologies',
+        description:
+          'Utilizing the latest AI and machine learning technologies for predictive threat detection.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Cybersecurity Blueprint',
+    }}
+  >
+    <Fragment slot="content">Ensuring Your Digital Resilience</Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Your Journey to Enhanced Cybersecurity"
+    items={[
+      {
+        title: 'Step 1: <span class="font-medium">Initial Consultation</span>',
+        description:
+          "Connect with our experts to discuss your specific security challenges and business objectives. We'll listen and understand your unique needs.",
+        icon: 'tabler:message-circle',
+      },
+      {
+        title: 'Step 2: <span class="font-medium">Comprehensive Assessment</span>',
+        description:
+          "We conduct an in-depth analysis of your current security infrastructure, identifying potential vulnerabilities and risk areas.",
+        icon: 'tabler:search',
+      },
+      {
+        title: 'Step 3: <span class="font-medium">Tailored Security Strategy</span>',
+        description:
+          'Our team develops a customized security roadmap that addresses your specific requirements, ensuring robust protection.',
+        icon: 'tabler:shield',
+      },
+      {
+        title: 'Ready!',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'Cybersecurity Process',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Comprehensive Security Toolkit"
+    subtitle="Essential tools and services to protect your digital ecosystem"
+    tagline="Our Solutions"
+    items={[
+      {
+        title: 'Network Security',
+        description: "Robust protection against unauthorized access and potential network breaches.",
+        icon: 'flat-color-icons:template',
+      },
+      {
+        title: 'Endpoint Protection',
+        description:
+          "Advanced security measures for all devices connected to your network.",
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'Data Encryption',
+        description:
+          'Comprehensive encryption strategies to safeguard sensitive information.',
+        icon: 'flat-color-icons:approval',
+      },
+      {
+        title: 'Threat Intelligence',
+        description:
+          "Proactive monitoring and analysis of potential cyber threats.",
+        icon: 'flat-color-icons:document',
+      },
+      {
+        title: 'Security Audits',
+        description:
+          'Comprehensive reviews to ensure ongoing security effectiveness.',
+        icon: 'flat-color-icons:advertising',
+      },
+      {
+        title: 'Incident Response',
+        description: 'Rapid and strategic handling of security incidents.',
+        icon: 'flat-color-icons:currency-exchange',
+      },
+      {
+        title: 'Compliance Management',
+        description: 'Ensuring adherence to industry security standards.',
+        icon: 'flat-color-icons:voice-presentation',
+      },
+      {
+        title: 'Cloud Security',
+        description:
+          'Robust protection for cloud-based infrastructure and services.',
+        icon: 'flat-color-icons:business-contact',
+      },
+      {
+        title: 'Security Training',
+        description:
+          'Empowering your team with cybersecurity awareness and best practices.',
+        icon: 'flat-color-icons:database',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Cybersecurity Insights"
+    information={`Stay informed with the latest cybersecurity trends, threat analysis, 
+                  and strategic insights to protect your business in an evolving digital landscape.`}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Frequently Asked Questions"
+    subtitle="Get answers to common questions about our cybersecurity services"
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Why Choose CyberBolt?',
+        description:
+          "We offer comprehensive, cutting-edge cybersecurity solutions tailored to your specific business needs, with a proactive approach to threat prevention and mitigation.",
+      },
+      {
+        title: 'What Industries Do You Serve?',
+        description:
+          'We provide cybersecurity services across multiple sectors, including finance, healthcare, retail, technology, and government organizations.',
+      },
+      {
+        title: 'How Often Should We Conduct Security Assessments?',
+        description:
+          "We recommend comprehensive security assessments at least annually, or more frequently for high-risk industries and rapidly changing technological environments.",
+      },
+      {
+        title: 'Do You Offer Ongoing Support?',
+        description:
+          "Yes, we provide continuous monitoring, threat detection, and incident response services to ensure your security infrastructure remains robust and adaptive.",
+      },
+      {
+        title: 'What Sets You Apart from Other Cybersecurity Providers?',
+        description:
+          "Our unique blend of advanced technology, expert human analysis, customized strategies, and commitment to ongoing innovation distinguishes us in the cybersecurity landscape.",
+      },
+      {
+        title: 'How Quickly Can You Respond to a Security Incident?',
+        description:
+          "Our incident response team is available 24/7 and can initiate immediate action within minutes of detecting a potential security threat.",
+      },
+    ]}
+  />
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    stats={[
+      { title: 'Threats Neutralized', amount: '10K+' },
+      { title: 'Client Satisfaction', amount: '98%' },
+      { title: 'Industries Served', amount: '50+' },
+      { title: 'Security Experts', amount: '75' },
+    ]}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Schedule Consultation',
+        href: '/contact',
+        icon: 'tabler:message-circle',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Secure Your&nbsp;Business&nbsp;with&nbsp;<br class="block sm:hidden" />
+      <span class="sm:whitespace-nowrap">CyberBolt</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Don't wait for a breach to take action. Protect your digital assets now. <br class="hidden md:inline" />
+      Your security is our priority.
+    </Fragment>
+  </CallToAction>
+</Layout>
